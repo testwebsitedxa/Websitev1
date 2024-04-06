@@ -5,10 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Company Name - Career Uplift Services</title>
   <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script> /* GSAP animation library */
 </head>
 <body>
   <header>
     <button id="menu-toggle">Menu</button>
+    <h1 class="animated-text"> Company Name
+    </h1>
   </header>
 
   <nav id="navigation">
@@ -20,9 +24,19 @@
   </nav>
 
   <main>
+    <section class="hero">
+      <h2>We Help You Reach Your Career Goals</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <button>Learn More</button>
+    </section>
+
     <section class="services">
       <h2>Our Services</h2>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <div class="progress-bars"> <div class="progress-bar"></div>
+        <div class="progress-bar"></div>
+        <div class="progress-bar"></div>
+      </div>
     </section>
 
     <section class="success">
@@ -30,7 +44,7 @@
       <p>See how we've helped others achieve their dreams.</p>
     </section>
 
-    <section class="cta"> /* Call to action */
+    <section class="cta">
       <h2>Get Started Today!</h2>
       <button>Let's Talk</button>
     </section>
@@ -39,7 +53,5 @@
   <footer>
     <p>&copy; 2024 Company Name</p>
   </footer>
-
-  <script src="script.js"></script>
 </body>
 </html>
