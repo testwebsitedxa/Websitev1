@@ -1,68 +1,90 @@
-/* Reset CSS */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* Body styles */
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5; /* Light Gray background */
 }
 
-/* Header styles */
 header {
-    background: #333;
-    color: #fff;
-    padding: 20px 0;
+  background-color: #f09849; /* Orange header */
+  color: #fff; /* White text */
+  padding: 20px;
+  text-align: center;
 }
 
-.container {
-    width: 80%;
-    margin: auto;
+h1,
+h2 {
+  margin: 0;
 }
 
-header h1 {
-    float: left;
+nav {
+  background-color: #fff; /* White navigation */
+  padding: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
 }
 
 nav ul {
-    float: right;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
 }
 
-nav ul li {
-    display: inline;
-    margin-left: 20px;
+nav li {
+  display: inline-block;
+  margin: 0 10px;
 }
 
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
+nav a {
+  color: #333; /* Dark gray text for links */
+  text-decoration: none;
+  font-weight: bold;
 }
 
-/* Banner styles */
-#banner {
-    background: url('../img/banner.jpg') no-repeat center center/cover;
-    color: #fff;
-    text-align: center;
-    padding: 100px 0;
+nav a:hover {
+  color: #f09849; /* Orange on hover */
 }
 
-#banner h2 {
-    font-size: 36px;
-    margin-bottom: 20px;
+main {
+  padding: 20px;
 }
 
-/* About and Contact Section styles */
-#about, #contact {
-    padding: 50px 0;
+section {
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 5px; /* Rounded corners */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
 }
 
-/* Footer styles */
+.services {
+  background-color: #e0e0e0; /* Light gray for services */
+}
+
+.success {
+  background-color: #bfefff; /* Light blue for success stories */
+}
+
+.cta {
+  background-color: #f09849; /* Orange for call to action */
+  color: #fff; /* White text */
+}
+
+.cta button {
+  background-color: #fff; /* White button */
+  color: #f09849; /* Orange text */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.cta button:hover {
+  background-color: #f5f5f5; /* Light gray on hover */
+}
+
 footer {
-    background: #333;
-    color: #fff;
-    text-align: center;
-    padding: 20px 0;
+  background-color: #f0f0f0; /* Light gray footer */
+  padding: 10px;
+  text-align: center;
 }
