@@ -5,6 +5,161 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Orbit Boost</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            color: #333;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-image: url('background_photo.jpg');
+            background-size: cover;
+        }
+
+        header {
+            background-color: rgba(38, 166, 154, 0.8);
+            color: #fff;
+            padding: 20px;
+            text-align: right; /* Align the header to the right */
+        }
+
+        header nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        header nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        header nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        section {
+            padding: 40px;
+            margin: 40px auto; /* Add margin for spacing between sections */
+            border-radius: 10px;
+            background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent background */
+        }
+
+        section h2 {
+            font-size: 28px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .services-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .pricing-plan {
+            background-color: #333;
+            padding: 20px;
+            border-radius: 5px;
+            flex: 1;
+            max-width: 300px;
+            margin: 0 10px 20px;
+        }
+
+        .pricing-plan h3 {
+            color: #26a69a;
+        }
+
+        .pricing-plan p {
+            font-weight: bold;
+        }
+
+        footer {
+            background-color: rgba(38, 166, 154, 0.8);
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        .about-text {
+            width: 70%;
+            margin: auto; /* Center the text box */
+            padding: 20px; /* Add padding to create space around the text */
+        }
+
+        .about-photo {
+            float: right;
+            width: 30%;
+        }
+
+        .about-text::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        #company-name {
+            margin-top: 50px;
+        }
+
+        #company-name h1 {
+            font-size: 48px;
+            color: #fff;
+        }
+
+        #about {
+            margin-bottom: 160px; /* Increase margin for larger spacing */
+        }
+
+        /* Center the contact section */
+        #contact {
+            text-align: center;
+        }
+
+        .contact-info {
+            margin-top: 20px; /* Add some space between the contact section and the email */
+            text-align: center; /* Center the email */
+        }
+
+        .contact-form {
+            display: inline-block;
+            text-align: left;
+        }
+
+        .contact-form label,
+        .contact-form input,
+        .contact-form textarea,
+        .contact-form button {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 8px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        .contact-form button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+
+        .contact-form button:hover {
+            background-color: #45a049;
+        }
+    </style>
 </head>
 <body>
     <header>
