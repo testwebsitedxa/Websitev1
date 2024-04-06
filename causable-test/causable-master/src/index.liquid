@@ -1,0 +1,136 @@
+---
+title: "Causable"
+description: "Causable supports innovation in business, science and society."
+---
+<!doctype html>
+<html lang="de">
+  {% include 'templates/_head.liquid' %}
+  <body class="bg-white font-sans">
+    {% include 'templates/_header.liquid' %}
+
+    <div class="h-20"></div>
+
+    <main class="min-h-screen">
+
+      <div class="relative pt-24 pb-36 overflow-hidden">
+        <div class="absolute left-1/2 -translate-x-[110px] pt-12 -rotate-25 select-none w-[600px]">
+          <img src="/assets/logo/schnuddel_clay.svg" class="w-[600px]">
+        </div>
+        <section class="container mx-auto px-4 max-w-3xl">
+          <div class="relative w-2/3 md:w-1/2">
+            <h1 class="text-5xl font-serif">
+              Causable supports innovation in society, business and science.
+            </h1>
+            <p class="mt-8 text-xl font-sans">
+              Sparring, strategy consulting and training for leaders open up new perspectives.
+              Learn how to foster collaboration and generate solutions
+              so that your teams build the right thing –
+              and build the things right.
+            </p>
+          </div>
+        </section>
+      </div>
+
+      <section class="container mx-auto px-4 max-w-5xl py-20">
+        <div class="flex flex-col md:flex-row gap-14 px-8 md:px-24">
+          <a
+            class="flex-auto flex flex-col mb-12"
+            href="/strategy.html"
+          >
+            <div class="h-[200px]">
+              <img src="/assets/icons/icon_upwards_first.svg" class="w-[180px]">
+            </div>
+            <h3 class="pb-3 text-2xl serif">Strategy</h3>
+            <p class="text-lg max-w-lg">
+              Partner with Causable to harness our insights at the nexus of research, tech, communication, product development and leadership, and craft new innovations with your organization’s collective expertise.
+            </p>
+          </a>
+          <a
+            class="flex-auto flex flex-col mb-12"
+            href="/sparring.html"
+          >
+            <div class="h-[200px] -mt-[30px] mb-[30px]">
+              <img src="/assets/icons/icon_idea.svg" class="w-[130px]">
+            </div>
+            <h3 class="pb-3 text-2xl serif">Sparring</h3>
+            <p class="text-lg max-w-lg">
+              Taking the lead on strategic initiatives? Enhance your leadership with a sparring partner. Gain insights and stay a step ahead in understanding exactly what your team requires to excel.
+            </p>
+          </a>
+          <a
+            class="flex-auto flex flex-col mb-12"
+            href="/training.html"
+          >
+            <div class="h-[200px] mt-[20px] -mb-[20px]">
+              <img src="/assets/icons/icon_spiral.svg" class="w-[150px]">
+            </div>
+            <h3 class="pb-3 text-2xl serif">Training</h3>
+            <p class="text-lg max-w-lg">
+              Up your leadership game with pro level skills in self-leadership,
+              stakeholder management, facilitation and communication.
+              Causable provides knowledge and tried and tested practices for you in compact courses.
+            </p>
+          </a>
+        </div>
+      </section>
+
+      <section class="js-contact container mx-auto px-4 max-w-3xl pt-4">
+        <div
+          class="mx-auto max-w-[550px] rounded-3xl p-4 bg-clay1 text-gray-700 text-center">
+          <div class="js-contact-btn cursor-pointer">
+            <span class="p-1 text-3xl ">
+              Get in touch
+            </span><br>
+            <span class="p-1 text-lg">
+              What would you like to talk about?
+            </span>
+          </div>
+          <div class="js-contact-form hidden text-left text-xl font-sans">
+            {% include 'includes/_contact-form.liquid' %}
+          </div>
+        </div>
+      </section>
+
+      <section class="container mx-auto px-4 max-w-3xl py-24">
+
+        <div class="flex flex-col-reverse md:flex-row-reverse gap-8 font-sans">
+          <div class="flex-1">
+            <h2 class="text-4xl font-serif pb-4">
+              <a href="/about.html">
+                About
+              </a>
+            </h2>
+            <p class="text-xl pb-4">
+              Dr. Silvia Maier has been leading and facilitating research and product development with interdisciplinary and cross-functional teams in science and technology for more than 15 years, both nationally and internationally. She is a trusted sparring partner for C-Level leaders and expert contributors alike, as she draws from more than 20 years of experience in leading teams and managing projects across a large variety of settings in the service and innovation sectors.
+            </p>
+            <p>
+              <a href="/about.html" class="text-lg text-link hover:underline">
+                More
+              </a>
+            </p>
+          </div>
+          <div class="flex-1 mt-16">
+            <picture class="block">
+              <img
+                class="w-full"
+                width="608px"
+                height="439px"
+                src="/assets/maier_silvia_annette_boutellier_swiss_young_academy.jpg"
+              >
+            </picture>
+            <div class="text-md text-dark py-1">
+              Foto: <a href="https://swissyoungacademy.ch/de/uber-uns/personlich/silvia-maier/">Swiss Young Academy</a>
+              <br>© Annette Boutellier
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+    </main>
+
+    {% include 'templates/_footer.liquid' %}
+
+    <script src="/assets/js/index.js"></script>
+  </body>
+</html>
