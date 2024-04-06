@@ -2,13 +2,17 @@ body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     color: #333;
     line-height: 1.6;
-    text-align: center; /* Align all content to center */
+    text-align: center;
+    background-image: url('background_photo.jpg'); /* Add background photo */
+    background-size: cover;
 }
 
 header {
-    background-color: #26a69a;
+    background-color: rgba(38, 166, 154, 0.8); /* Add transparency to background color */
     color: #fff;
     padding: 20px;
+    background-image: url('header_background_photo.jpg'); /* Add background photo */
+    background-size: cover;
 }
 
 header h1 {
@@ -34,8 +38,12 @@ nav ul li a {
 
 section {
     padding: 40px 20px;
-    display: inline-block; /* Make sections inline-block to center */
-    text-align: left; /* Align section content to left */
+    display: inline-block;
+    text-align: left;
+    background-color: rgba(255, 255, 255, 0.9); /* Add transparency to background color */
+    width: 80%; /* Adjust width as needed */
+    margin: 20px auto; /* Center sections and create space */
+    border-radius: 10px; /* Add rounded corners */
 }
 
 section h2 {
@@ -59,7 +67,7 @@ section h2 {
 }
 
 footer {
-    background-color: #26a69a;
+    background-color: rgba(38, 166, 154, 0.8); /* Add transparency to background color */
     color: #fff;
     text-align: center;
     padding: 20px;
@@ -85,8 +93,4 @@ footer p {
     content: "";
     display: table;
     clear: both;
-}
-
-.spacer {
-    height: 40px; /* Adjust space height as needed */
 }
