@@ -1,57 +1,18 @@
-body {
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    color: #333;
-    line-height: 1.6;
-    text-align: center;
-    background-image: url('background_photo.jpg');
-    background-size: cover;
-    margin: 0;
-    padding: 0;
+/* New CSS for service columns */
+.service-column {
+    display: inline-block;
+    width: 30%; /* Adjust width as needed */
+    vertical-align: top;
+    margin-right: 5%; /* Adjust spacing between columns */
 }
 
-header {
-    background-color: rgba(38, 166, 154, 0.8);
-    color: #fff;
-    padding: 20px;
-}
-
-header nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-header nav ul li {
-    display: inline;
-    margin-right: 20px;
-}
-
-header nav ul li a {
-    color: #fff;
-    text-decoration: none;
-}
-
-section {
-    padding: 40px;
-    display: block;
-    text-align: left;
-    background-color: rgba(0, 0, 0, 0.7);
-    margin: 20px auto;
-    border-radius: 10px;
-    color: #fff;
-}
-
-section h2 {
-    font-size: 28px;
-    margin-bottom: 20px;
-    text-align: center; /* Center titles */
-}
-
+/* Adjustments to pricing-plan */
 .pricing-plan {
     background-color: #333;
     padding: 20px;
     border-radius: 5px;
     margin-bottom: 20px;
+    height: 100%; /* Ensure equal height for all columns */
 }
 
 .pricing-plan h3 {
@@ -62,43 +23,27 @@ section h2 {
     font-weight: bold;
 }
 
-footer {
-    background-color: rgba(38, 166, 154, 0.8);
-    color: #fff;
-    text-align: center;
-    padding: 20px;
+/* Clearfix to ensure proper alignment */
+.service-column:last-child {
+    margin-right: 0;
 }
 
-footer p {
-    margin: 0;
-}
-
-.about-text {
-    float: left;
-    width: 60%;
-    padding-right: 20px;
-}
-
-.about-photo {
-    float: right;
-    width: 40%;
-}
-
-.about-text::after,
-.about-photo::after {
+/* Clearfix */
+.full-width::after {
     content: "";
     display: table;
     clear: both;
 }
 
-#company-name {
-    margin-top: 50px;
-}
-
-#company-name h1 {
-    font-size: 48px;
-}
-
+/* Adjusting the margin-top for each section */
 #about {
-    margin-top: 500px; /* Adjust this value to create more space */
+    margin-top: 500px; /* Match the spacing between "Orbit Boost" and "About Me" */
+}
+
+#services {
+    margin-top: 800px; /* Match the desired spacing */
+}
+
+#contact {
+    margin-top: 1100px; /* Match the desired spacing */
 }
