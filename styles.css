@@ -117,4 +117,5 @@ footer p {
 
 .contact-info {
     margin-top: 20px; /* Add some space between the contact section and the email */
+    text-align: center; /* Center the email */
 }
