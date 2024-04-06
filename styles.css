@@ -108,3 +108,12 @@ footer p {
 #about {
     margin-bottom: 300px; /* Increased margin to create more space */
 }
+
+/* Center the contact section */
+#contact {
+    text-align: center;
+}
+
+.contact-info {
+    margin-top: 20px; /* Add some space between the contact section and the email */
+}
