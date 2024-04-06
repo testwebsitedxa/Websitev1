@@ -33,22 +33,22 @@ header nav ul li a {
 
 section {
     padding: 40px;
-    display: inline-block;
+    display: block;
     text-align: left;
-    background-color: rgba(0, 0, 0, 0.7); /* Darker theme */
-    width: 50%; /* Smaller width */
-    margin: 20px auto; /* Center sections and create space */
+    background-color: rgba(0, 0, 0, 0.7);
+    margin: 20px auto;
     border-radius: 10px;
+    color: #fff;
 }
 
 section h2 {
     font-size: 28px;
     margin-bottom: 20px;
-    color: #fff;
+    text-align: center; /* Center titles */
 }
 
 .pricing-plan {
-    background-color: #333; /* Darker theme */
+    background-color: #333;
     padding: 20px;
     border-radius: 5px;
     margin-bottom: 20px;
@@ -60,7 +60,6 @@ section h2 {
 
 .pricing-plan p {
     font-weight: bold;
-    color: #fff;
 }
 
 footer {
@@ -78,7 +77,6 @@ footer p {
     float: left;
     width: 60%;
     padding-right: 20px;
-    color: #fff;
 }
 
 .about-photo {
@@ -94,10 +92,13 @@ footer p {
 }
 
 #company-name {
-    margin-top: 50px; /* Add space between company name and about section */
+    margin-top: 50px;
 }
 
 #company-name h1 {
-    font-size: 48px; /* Larger font size */
-    color: #fff;
+    font-size: 48px;
+}
+
+#about {
+    margin-top: 500px; /* Adjust this value to create more space */
 }
