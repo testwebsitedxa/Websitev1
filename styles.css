@@ -78,21 +78,25 @@ footer p {
     margin: 0;
 }
 
+.about-container {
+    display: flex;
+    align-items: center; /* Center items vertically */
+}
+
 .about-text {
     width: 70%;
-    margin: auto; /* Center the text box */
     padding: 20px; /* Add padding to create space around the text */
 }
 
 .about-photo {
-    float: right;
     width: 30%;
+    text-align: center;
 }
 
-.about-text::after {
-    content: "";
-    display: table;
-    clear: both;
+.about-photo img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
 }
 
 #company-name {
