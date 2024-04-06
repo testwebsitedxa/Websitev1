@@ -2,11 +2,12 @@ body {
   font-family: sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f5f5f5; /* Light Gray background */
+  background-color: #fff; /* White background */
+  color: #24292e; /* Dark gray text */
 }
 
 header {
-  background-color: #f09849; /* Orange header */
+  background-color: #38a1f3; /* Blue header */
   color: #fff; /* White text */
   padding: 20px;
   text-align: center;
@@ -18,7 +19,7 @@ h2 {
 }
 
 nav {
-  background-color: #fff; /* White navigation */
+  background-color: #f0f0f0; /* Light gray navigation */
   padding: 10px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
 }
@@ -42,7 +43,7 @@ nav a {
 }
 
 nav a:hover {
-  color: #f09849; /* Orange on hover */
+  color: #38a1f3; /* Blue on hover */
 }
 
 main {
@@ -54,24 +55,21 @@ section {
   padding: 20px;
   border-radius: 5px; /* Rounded corners */
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  background-color: #f5f5f5; /* Light gray background for sections */
 }
 
-.services {
-  background-color: #e0e0e0; /* Light gray for services */
-}
-
-.success {
-  background-color: #bfefff; /* Light blue for success stories */
-}
-
-.cta {
-  background-color: #f09849; /* Orange for call to action */
+.cta { /* Call to action */
+  background-color: #38a1f3; /* Blue for call to action */
   color: #fff; /* White text */
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 .cta button {
   background-color: #fff; /* White button */
-  color: #f09849; /* Orange text */
+  color: #38a1f3; /* Blue text */
   border: none;
   padding: 10px 20px;
   border-radius: 5px;
@@ -80,7 +78,7 @@ section {
 }
 
 .cta button:hover {
-  background-color: #f5f5f5; /* Light gray on hover */
+  background-color: #f0f0f0; /* Light gray on hover */
 }
 
 footer {
