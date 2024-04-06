@@ -14,12 +14,10 @@ header {
     padding: 20px;
 }
 
-header nav {
-    text-align: center; /* Center the navigation links */
-}
-
 header nav ul {
-    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 header nav ul li {
@@ -109,8 +107,4 @@ footer p {
 
 #about {
     margin-bottom: 300px; /* Increased margin to create more space */
-}
-
-.contact-info {
-    text-align: center; /* Center the contact information */
 }
