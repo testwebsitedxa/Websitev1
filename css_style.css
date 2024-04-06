@@ -2,12 +2,59 @@ body {
   font-family: sans-serif;
   margin: 0;
   padding: 0;
-  /* Space-themed background gradient with 3 colors */
-  background: linear-gradient(to right, #191D21, #293E54, #476B8D);
+  /* Space-themed background gradient with 5 colors */
+  background: linear-gradient(to right, #191D21, #293E54, #476B8D, #6699D0, #85C2EF);
   background-size: cover;
   height: 100vh;
+  position: relative; /* Required for star positioning */
 }
 
-/* Other styles... */
+/* Starry effect styles */
+.star {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  border-radius: 50%;
+  background-color: #fff; /* Adjust star color if needed */
+  animation: twinkle 1s infinite ease-in-out;
+}
 
-/* Your existing styles from css_style.css can go here */
+@keyframes twinkle {
+  0% { opacity: 0; }
+  50% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+/* Add multiple stars with varying sizes and positions */
+.star:nth-child(1) {
+  top: 10%;
+  left: 20%;
+  animation-delay: 0s;
+}
+
+.star:nth-child(2) {
+  top: 70%;
+  left: 70%;
+  animation-delay: 1s;
+}
+
+.star:nth-child(3) {
+  top: 30%;
+  left: 90%;
+  animation-delay: 2s;
+}
+
+.star:nth-child(4) {
+  top: 50%;
+  left: 40%;
+  animation-delay: 3s;
+}
+
+.star:nth-child(5) {
+  top: 80%;
+  left: 10%;
+  animation-delay: 4s;
+}
+
+/* Add more star elements (".star") for a denser effect */
