@@ -44,13 +44,19 @@ section h2 {
     text-align: center;
 }
 
+.services-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
 .pricing-plan {
     background-color: #333;
     padding: 20px;
     border-radius: 5px;
-    margin: 0 10px 20px;
-    flex: 1 0 auto;
+    flex: 1;
     max-width: 300px;
+    margin: 0 10px 20px;
 }
 
 .pricing-plan h3 {
