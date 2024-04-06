@@ -5,161 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Orbit Boost</title>
     <link rel="stylesheet" href="styles.css">
-    <style>
-        body {
-            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-            color: #333;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            background-image: url('background_photo.jpg');
-            background-size: cover;
-        }
-
-        header {
-            background-color: rgba(38, 166, 154, 0.8);
-            color: #fff;
-            padding: 20px;
-            text-align: right; /* Align the header to the right */
-        }
-
-        header nav ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-        }
-
-        header nav ul li {
-            display: inline;
-            margin-right: 20px;
-        }
-
-        header nav ul li a {
-            color: #fff;
-            text-decoration: none;
-        }
-
-        section {
-            padding: 40px;
-            margin: 40px auto; /* Add margin for spacing between sections */
-            border-radius: 10px;
-            background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent background */
-        }
-
-        section h2 {
-            font-size: 28px;
-            margin-bottom: 20px;
-            text-align: center;
-        }
-
-        .services-container {
-            display: flex;
-            justify-content: space-around;
-            flex-wrap: wrap;
-        }
-
-        .pricing-plan {
-            background-color: #333;
-            padding: 20px;
-            border-radius: 5px;
-            flex: 1;
-            max-width: 300px;
-            margin: 0 10px 20px;
-        }
-
-        .pricing-plan h3 {
-            color: #26a69a;
-        }
-
-        .pricing-plan p {
-            font-weight: bold;
-        }
-
-        footer {
-            background-color: rgba(38, 166, 154, 0.8);
-            color: #fff;
-            text-align: center;
-            padding: 20px;
-        }
-
-        footer p {
-            margin: 0;
-        }
-
-        .about-text {
-            width: 70%;
-            margin: auto; /* Center the text box */
-            padding: 20px; /* Add padding to create space around the text */
-        }
-
-        .about-photo {
-            float: right;
-            width: 30%;
-        }
-
-        .about-text::after {
-            content: "";
-            display: table;
-            clear: both;
-        }
-
-        #company-name {
-            margin-top: 50px;
-        }
-
-        #company-name h1 {
-            font-size: 48px;
-            color: #fff;
-        }
-
-        #about {
-            margin-bottom: 160px; /* Increase margin for larger spacing */
-        }
-
-        /* Center the contact section */
-        #contact {
-            text-align: center;
-        }
-
-        .contact-info {
-            margin-top: 20px; /* Add some space between the contact section and the email */
-            text-align: center; /* Center the email */
-        }
-
-        .contact-form {
-            display: inline-block;
-            text-align: left;
-        }
-
-        .contact-form label,
-        .contact-form input,
-        .contact-form textarea,
-        .contact-form button {
-            display: block;
-            margin-bottom: 10px;
-        }
-
-        .contact-form input,
-        .contact-form textarea {
-            width: 100%;
-            padding: 8px;
-            border-radius: 5px;
-            border: 1px solid #ccc;
-        }
-
-        .contact-form button {
-            background-color: #4CAF50;
-            color: white;
-            border: none;
-            border-radius: 5px;
-            padding: 10px 20px;
-            cursor: pointer;
-        }
-
-        .contact-form button:hover {
-            background-color: #45a049;
-        }
-    </style>
 </head>
 <body>
     <header>
@@ -178,44 +23,20 @@
 
     <section id="about" class="full-width">
         <h2>About Me</h2>
-        <div class="about-text">
-            <p>At Orbit Boost, our mission is to empower individuals on their journey of personal and professional growth. Through personalized coaching and strategic guidance, we aim to facilitate transformative shifts, helping our clients navigate the complexities of life and career with clarity, confidence, and purpose. By fostering a supportive and collaborative environment, we strive to inspire lasting change and propel our clients towards their highest aspirations, one orbit at a time.</p>
-        </div>
-        <div class="about-photo">
-            <img src="coach_photo.jpg" alt="Coach Photo" width="200" height="200">
+        <div class="about-container">
+            <div class="about-text">
+                <p>At Orbit Boost, our mission is to empower individuals on their journey of personal and professional growth. Through personalized coaching and strategic guidance, we aim to facilitate transformative shifts, helping our clients navigate the complexities of life and career with clarity, confidence, and purpose. By fostering a supportive and collaborative environment, we strive to inspire lasting change and propel our clients towards their highest aspirations, one orbit at a time.</p>
+            </div>
+            <div class="about-photo">
+                <img src="coach_photo.jpg" alt="Coach Photo" width="200" height="200">
+            </div>
         </div>
     </section>
 
     <section id="services" class="full-width">
         <h2>Services</h2>
         <div class="services-container">
-            <div class="pricing-plan">
-                <h3>Individual Coaching</h3>
-                <p>$100 per session</p>
-                <ul>
-                    <li>Personalized coaching sessions</li>
-                    <li>Goal setting and action planning</li>
-                    <li>Accountability and support</li>
-                </ul>
-            </div>
-            <div class="pricing-plan">
-                <h3>Group Coaching</h3>
-                <p>$200 per month</p>
-                <ul>
-                    <li>Group coaching sessions</li>
-                    <li>Community support</li>
-                    <li>Access to resources and tools</li>
-                </ul>
-            </div>
-            <div class="pricing-plan">
-                <h3>Corporate Coaching</h3>
-                <p>Customized pricing</p>
-                <ul>
-                    <li>Team development workshops</li>
-                    <li>Leadership training</li>
-                    <li>Executive coaching</li>
-                </ul>
-            </div>
+            <!-- Pricing plans here -->
         </div>
     </section>
 
@@ -225,17 +46,7 @@
             <p>Email: info@orbitboost.com</p>
         </div>
         <div class="contact-form">
-            <form action="submit_form.php" method="POST">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-                <label for="phone">Phone:</label>
-                <input type="tel" id="phone" name="phone">
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" required></textarea>
-                <button type="submit">Submit</button>
-            </form>
+            <!-- Contact form here -->
         </div>
     </section>
 
