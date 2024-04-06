@@ -2,26 +2,22 @@ body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     color: #333;
     line-height: 1.6;
+    text-align: center;
+    background-image: url('background_photo.jpg');
+    background-size: cover;
     margin: 0;
     padding: 0;
-    background-image: url('background_photo.jpg'); /* Add background image */
-    background-size: cover; /* Ensure background image covers the entire viewport */
 }
 
 header {
-    background-color: #26a69a;
+    background-color: rgba(38, 166, 154, 0.8);
     color: #fff;
-    padding: 20px 0;
-    text-align: center;
-}
-
-header h1 {
-    font-size: 36px;
-    margin-bottom: 10px;
+    padding: 20px;
 }
 
 header nav ul {
     list-style-type: none;
+    margin: 0;
     padding: 0;
 }
 
@@ -37,36 +33,24 @@ header nav ul li a {
 
 section {
     padding: 40px;
-    text-align: center;
-    margin: 50px auto;
-    background-color: rgba(255, 255, 255, 0.8); /* Add background color with transparency */
-    border-radius: 10px; /* Add border radius for sections */
+    display: block;
+    text-align: left;
+    margin: 20px auto;
+    border-radius: 10px;
+    color: #fff;
 }
 
 section h2 {
     font-size: 28px;
     margin-bottom: 20px;
-}
-
-.about-photo {
-    display: inline-block;
-    vertical-align: middle;
-}
-
-.service-column {
-    display: inline-block;
-    width: 30%;
-    margin-right: 5%;
-    vertical-align: top;
+    text-align: center;
 }
 
 .pricing-plan {
     background-color: #333;
-    color: #fff;
     padding: 20px;
     border-radius: 5px;
     margin-bottom: 20px;
-    text-align: left;
 }
 
 .pricing-plan h3 {
@@ -78,8 +62,43 @@ section h2 {
 }
 
 footer {
-    background-color: #26a69a;
+    background-color: rgba(38, 166, 154, 0.8);
     color: #fff;
-    padding: 20px 0;
     text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    margin: 0;
+}
+
+.about-text {
+    float: left;
+    width: 60%;
+    padding-right: 20px;
+}
+
+.about-photo {
+    float: right;
+    width: 40%;
+}
+
+.about-text::after,
+.about-photo::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#company-name {
+    margin-top: 50px;
+}
+
+#company-name h1 {
+    font-size: 48px;
+    color: #fff;
+}
+
+#about {
+    margin-top: 500px;
 }
