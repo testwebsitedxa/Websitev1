@@ -1,155 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" /> 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="css/main.css" />
-    <script
-      src="https://kit.fontawesome.com/fb89be9943.js"
-      crossorigin="anonymous"
-    ></script>
-  </head>
-  <body class="relative container mx-auto">
-    <!-- Header -->
-    <header class="container flex justify-between mb-20 px-4 py-2 pt-4">
-      <!-- Logo -->
-      <a href="#">
-        <img class="w-10 hover:opacity-90" src="img/logo.png" alt="logo" />
-      </a>
-
-      <!-- Header Menu -->
-      <nav class="flex items-center text-slate-700 text-xs font-medium">
-        <a class="mr-6 hover:text-slate-600 sm:hidden" href="#about"
-          >About Us</a
-        >
-        <ul class="hidden sm:flex">
-          <li>
-            <a class="mr-6 hover:text-slate-600" href="#about">About Us</a>
-          </li>
-          <li>
-            <a class="mr-6 hover:text-slate-600" href="#">Services</a>
-          </li>
-          <li>
-            <a class="mr-6 hover:text-slate-600" href="#">Products</a>
-          </li>
-        </ul>
-
-        <a
-          href="#contact"
-          class="rounded-full border border-slate-700 px-4 py-2 hover:bg-slate-700 hover:text-white transition-all duration-200 ease-in-out"
-        >
-          Contact Us
-          <i
-            class="fa-solid fa-angles-right animation-move-right relative top-03px"
-          ></i>
-        </a>
-      </nav>
-    </header>
-
-    <!-- Main -->
-    <main>
-      <!-- Hero -->
-      <section
-        class="hero px-4 mb-20 container flex-col justify-between items-center sm:flex sm:flex-row xl:justify-center"
-      >
-        <h1 class="font-bold text-5xl text-slate-800 max-w-sm mb-10 lg:mr-48">
-          World-class consulting firm <span class="text-blue-600">.</span>
-        </h1>
-        <div>
-          <p class="max-w-xs mb-10 text-s text-slate-500">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae,
-            adipisci ea consectetur deleniti velit necessitatibus voluptatem
-            ducimus neque eveniet.
-          </p>
-          <a class="font-bold text-s text-blue-600" href="#">See Services</a>
-        </div>
-      </section>
-
-      <!-- Dark Section 1 -->
-      <section class="container justify-between bg-black md:flex">
-        <div
-          class="flex justify-center items-center flex-col text-center py-20 px-20 w-full md:w-1/2"
-        >
-          <img
-            class="w-24 mb-3 hover:opacity-90"
-            src="img/logo.png"
-            alt="logo"
-          />
-          <h3 class="text-slate-200 font-bold text-2xl max-w-xs">
-            A new, groundbreaking consulting system
-          </h3>
-        </div>
-        <div class="w-full md:w-1/2 image"></div>
-      </section>
-
-      <!-- Divider -->
-      <div class="container h-16 bg-slate-200"></div>
-
-      <!-- About Us Section -->
-      <section
-        id="about"
-        class="px-4 mt-40 mb-20 container w-full flex justify-center items-center"
-      >
-        <div>
-          <h5 class="font-bold text-s text-blue-600 mb-3">About Us</h5>
-          <p class="font-bold text-3xl text-slate-800 max-w-4xl">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit cumque
-            animi commodi odio cum nostrum facilis,
-            <span class="text-slate-500">
-              voluptates hic consectetur exercitationem doloremque adipisci
-            </span>
-          </p>
-        </div>
-      </section>
-
-      <!-- Call To Action -->
-      <section
-        id="contact"
-        class="bg-blue-600 px-4 py-20 mb-10 w-full justify-center sm:flex sm:justify-between xl:px-48"
-      >
-        <form class="mb-10 max-w-sm mr-20 w-full sm:w-1/2">
-          <input
-            class="py-2 bg-blue-600 text-blue-100 placeholder-blue-200 text-xs border-b border-blue-200 outline-none mb-6 w-full"
-            type="text"
-            placeholder="Name"
-          />
-          <input
-            class="py-2 bg-blue-600 text-blue-100 placeholder-blue-200 text-xs border-b border-blue-200 outline-none mb-6 w-full"
-            type="email"
-            placeholder="Email"
-          />
-          <input
-            class="py-2 bg-blue-600 text-blue-100 placeholder-blue-200 text-xs border-b border-blue-200 outline-none mb-6 w-full"
-            type="text"
-            placeholder="Message"
-          />
-          <button
-            class="px-4 py-3 bg-blue-50 text-slate-700 text-xs rounded-full border-none shadow-md shadow-blue-700 hover:bg-white transition-all duration-200 ease-in-out"
-          >
-            Send Message
-            <i
-              class="fa-solid fa-angles-right animation-move-right relative top-03px"
-            ></i>
-          </button>
-        </form>
-        <div>
-          <h2 class="mb-4 text-blue-50 font-semibold text-3xl max-w-xs">
-            We are always ready to hear you 24/7
-          </h2>
-          <p class="text-blue-200 text-xs max-w-xs leading-5">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Repellendus, fugiat nulla!
-          </p>
-        </div>
-      </section>
-    </main>
-    <footer class="px-4 py-7 text-slate-600 text-xs text-center">
-      <hr class="opacity-40 pb-7" />
-      <p>&copy; <span id="footerDate"></span> All Rights Reserved</p>
-    </footer>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coaching Professional Website Template | WIX</title>
+    
+    <!-- Include Sentry -->
+    <script src="https://static.parastorage.com/unpkg/@sentry/browser@5.27.4/build/bundle.min.js"></script>
     <script>
-      document.getElementById('footerDate').innerHTML = new Date().getFullYear()
+        // Sentry initialization script
+        (function(c,u,v,n,p,e,z,A,w){function k(a){if(!x){x=!0;var l=u.getElementsByTagName(v)[0],d=u.createElement(v);d.src=A;d.crossorigin="anonymous";d.addEventListener("load",function(){try{c[n]=r;c[p]=t;var b=c[e],d=b.init;b.init=function(a){for(var b in a)Object.prototype.hasOwnProperty.call(a,b)&&(w[b]=a[b]);d(w)};B(a,b)}catch(g){console.error(g)}});l.parentNode.insertBefore(d,l)}}function B(a,l){try{for(var d=m.data,b=0;b<a.length;b++)if("function"===typeof a[b])a[b]();var e=!1,g=c.__SENTRY__;"undefined"!==
+        typeof g&&g.hub&&g.hub.getClient()&&(e=!0);g=!1;for(b=0;b<d.length;b++)if(d[b].f){g=!0;var f=d[b];!1===e&&"init"!==f.f&&l.init();e=!0;l[f.f].apply(l,f.a)}!1===e&&!1===g&&l.init();var h=c[n],k=c[p];for(b=0;b<d.length;b++)d[b].e&&h?h.apply(c,d[b].e):d[b].p&&k&&k.apply(c,[d[b].p])}catch(C){console.error(C)}}for(var f=!0,y=!1,q=0;q<document.scripts.length;q++)if(-1<document.scripts[q].src.indexOf(z)){f="no"!==document.scripts[q].getAttribute("data-lazy");break}var x=!1,h=[],m=function(a){(a.e||a.p||a.f&&
+        -1<a.f.indexOf("capture")||a.f&&-1<a.f.indexOf("showReportDialog"))&&f&&k(h);m.data.push(a)};m.data=[];c[e]=c[e]||{};c[e].onLoad=function(a){h.push(a);f&&!y||k(h)};c[e].forceLoad=function(){y=!0;f&&setTimeout(function(){k(h)})};"init addBreadcrumb captureMessage captureException captureEvent configureScope withScope showReportDialog".split(" ").forEach(function(a){c[e][a]=function(){m({f:a,a:arguments})}});var r=c[n];c[n]=function(a,e,d,b,f){m({e:[].slice.call(arguments)});r&&r.apply(c,arguments)};
+        var t=c[p];c[p]=function(a){m({p:a.reason});t&&t.apply(c,arguments)};f||setTimeout(function(){k(h)})})(window,document,"script","onerror","onunhandledrejection","Sentry","b4e7a2b423b54000ac2058644c76f718","https://static.parastorage.com/unpkg/@sentry/browser@5.27.4/build/bundle.min.js",{"dsn":"https://b4e7a2b423b54000ac2058644c76f718@sentry.wixpress.com/217"});
     </script>
-  </body>
+
+    <!-- Include Polyfill -->
+    <script src="https://static.parastorage.com/polyfill/v3/polyfill.min.js?features=default,es6,es7,es2017,es2018,es2019,fetch&flags=gated&unknown=polyfill"></script>
+
+    <!-- Include Fedops Logger -->
+    <script src="//static.parastorage.com/unpkg/@wix/fedops-logger@5.502.0/dist/statics/fedops-logger.bundle.min.js" crossorigin></script>
+    <script>
+        // Initialization of Fedops Logger
+        window.onWixFedopsLoggerLoaded = function () {
+            window.fedopsLogger && window.fedopsLogger.reportAppLoadStarted('marketing-template-viewer');
+        }
+    </script>
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="https://static.parastorage.com/services/third-party/fonts/Helvetica/fontFace.css">
+    <link rel="stylesheet" href="https://static.parastorage.com/unpkg/@wix/wix-fonts@1.14.0/madefor.min.css">
+    <link rel="stylesheet" href="https://static.parastorage.com/unpkg/@wix/wix-fonts@1.14.0/madeforDisplay.min.css">
+    <link rel="stylesheet" href="//static.parastorage.com/services/marketing-template-viewer/1.2134.0/app.min.css">
+</head>
+<body>
+    <div id="root">
+        <div data-hook="app">
+            <div data-hook="tool-bar" class="sbWfkE">
+                <div class="Mn4893">
+                    <div class="bZOLNF">
+                        <a data-hook="logo" href="/" class="nHuSJZ"><span class="AV8G6s">wix.com</span></a>
+                    </div>
+                    <div class="wKSaYa">
+                        <button data-hook="desktop-view" class="is65hl sdsgLW"><span class="XFdFwl">show desktop view</span></button>
+                        <hr class="hS1yv1"/>
+                        <button data-hook="mobile-view" class="fB70N2"><span class="XFdFwl">show mobile view</span></button>
+                    </div>
+                </div>
+                <div class="TYXuEX">
+                    <div class="RyxoSg">
+                        <p data-hook="tool-bar-title" class="VaexPL">Click edit and create your own amazing website</p>
+                        <a data-hook="info-view" class="bggdgE" tabindex="0" role="dialog" href="#">Read More</a>
+                        <a class="Ydu4WK" data-hook="editor-link" href="https://manage.wix.com/edit-template/from-intro?originTemplateId=a82e916a-5f83-4c62-ad07-53c98a45a9e6&amp;editorSessionId=ab0dbf1d-a7c5-4173-8fd0-71194eadd45b" target="_blank" tabindex="0">Edit this site</a>
+                    </div>
+                </div>
+            </div>
+            <div data-hook="template-demo" class="CJ4D6R">
+                <div data-hook="desktop-view" class="Woz8P7">
+                    <iframe data-hook="desktop-iframe" src="https://www.wix.com/demone2/success-coach" title="Coaching Professional" width="100%" height="100%" class="eZTjsa"></iframe>
+                </div>
+            </div>
+            <div data-hook="info-pop-up" class="M05QSQ">
+                <div class="E0wHmq">
+                    <button data-hook="card-close" class="eds_d0"><span class="ydbrSa">close info popup</span></button>
+                    <div class="qLnKwP">
+                        <h1 data-hook="card-title" class="PHJvhr">Coaching Professional - Website Template</h1>
+                        <div class="CEjC4K">
+                            <h3 data-hook="card-good-for-title" class="xqspyG">Good For:</h3>
+                            <p data-hook="card-good-for" class="gsbPc5">Life coaches, motivational speakers, private instructors.</p>
+                        </div>
+                        <div class="CEjC4K">
+                            <h3 class="xqspyG">Description:</h3>
+                            <p data-hook="card-description" class="gsbPc5">Welcome visitors to your site with a bright and inspiring template. You and your services are highlighted on the homepage, while Wix Bookings helps to organize your calendar and makes it easy for prospective clients to schedule a session. Click edit and take your first step towards online success.</p>
+                        </div>
+                    </div>
+                    <div class="KiqsRq">
+                        <a data-hook="card-editor-url" class="XpwCp3 sKD7vO" target="_blank" href="https://manage.wix.com/edit-template/from-intro?originTemplateId=a82e916a-5f83-4c62-ad07-53c98a45a9e6&amp;editorSessionId=ab0dbf1d-a7c5-4173-8fd0-71194eadd45b">Edit Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        window.onWixRecorderLoaded = function () {
+            window.dispatchEvent(new Event('wixRecorderReady'));
+        };
+    </script>
+
+    <!-- Include Wix Recorder -->
+    <script async src="//static.parastorage.com/unpkg-semver/wix-recorder/app.bundle.min.js" crossorigin onload="onWixRecorderLoaded()"></script>
+
+    <!-- Include Cookie Sync Service -->
+    <script src="//static.parastorage.com/services/cookie-sync-service/1.347.20/embed-cidx.bundle.min.js"></script>
+    <!-- Include Tag Manager Client -->
+    <script src="//static.parastorage.com/services/tag-manager-client/1.827.0/hostTags.bundle.min.js"></script>
+
+    <!-- Include Cookie Consent Policy -->
+    <script src="//static.parastorage.com/services/cookie-consent-policy-client/1.866.0/app.bundle.min.js"></script>
+
+    <!-- Include Marketing Template Viewer -->
+    <script src="//static.parastorage.com/services/marketing-template-viewer/1.2134.0/app.bundle.min.js"></script>
+</body>
 </html>
