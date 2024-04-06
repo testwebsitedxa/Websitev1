@@ -1,4 +1,3 @@
-/* CSS */
 body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     color: #333;
@@ -13,7 +12,7 @@ header {
     background-color: rgba(38, 166, 154, 0.8);
     color: #fff;
     padding: 20px;
-    text-align: right; /* Align navigation to the right */
+    text-align: right; /* Align the header to the right */
 }
 
 header nav ul {
@@ -24,11 +23,7 @@ header nav ul {
 
 header nav ul li {
     display: inline;
-    margin-left: 20px;
-}
-
-header nav ul li:first-child {
-    margin-left: 0;
+    margin-right: 20px;
 }
 
 header nav ul li a {
@@ -38,10 +33,9 @@ header nav ul li a {
 
 section {
     padding: 40px;
-    text-align: left;
-    margin: 80px auto; /* Quadrupled space between sections */
+    margin: 40px auto; /* Add margin for spacing between sections */
     border-radius: 10px;
-    color: #fff;
+    background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent background */
 }
 
 section h2 {
@@ -85,18 +79,17 @@ footer p {
 }
 
 .about-text {
-    float: left;
-    width: 60%;
-    padding-right: 20px;
+    width: 70%;
+    margin: auto; /* Center the text box */
+    padding: 20px; /* Add padding to create space around the text */
 }
 
 .about-photo {
     float: right;
-    width: 40%;
+    width: 30%;
 }
 
-.about-text::after,
-.about-photo::after {
+.about-text::after {
     content: "";
     display: table;
     clear: both;
@@ -112,7 +105,7 @@ footer p {
 }
 
 #about {
-    margin-bottom: 300px; /* Increased margin to create more space */
+    margin-bottom: 160px; /* Increase margin for larger spacing */
 }
 
 /* Center the contact section */
