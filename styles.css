@@ -106,5 +106,5 @@ footer p {
 }
 
 #about {
-    margin-top: 500px;
+    margin-bottom: 200px; /* Add margin to create space between "About Me" and "Services" sections */
 }
