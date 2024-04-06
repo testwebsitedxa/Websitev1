@@ -2,6 +2,7 @@ body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     color: #333;
     line-height: 1.6;
+    text-align: center; /* Align all content to center */
 }
 
 header {
@@ -33,6 +34,8 @@ nav ul li a {
 
 section {
     padding: 40px 20px;
+    display: inline-block; /* Make sections inline-block to center */
+    text-align: left; /* Align section content to left */
 }
 
 section h2 {
@@ -64,4 +67,26 @@ footer {
 
 footer p {
     margin: 0;
+}
+
+.about-text {
+    float: left;
+    width: 60%;
+    padding-right: 20px;
+}
+
+.about-photo {
+    float: right;
+    width: 40%;
+}
+
+.about-text::after,
+.about-photo::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.spacer {
+    height: 40px; /* Adjust space height as needed */
 }
