@@ -2,8 +2,8 @@ body {
   font-family: sans-serif;
   margin: 0;
   padding: 0;
-  /* Space-themed background gradient */
-  background: linear-gradient(to right, #000000, #2C3E50);
+  /* Space-themed background gradient with 3 colors */
+  background: linear-gradient(to right, #191D21, #293E54, #476B8D);
   background-size: cover;
   height: 100vh;
 }
