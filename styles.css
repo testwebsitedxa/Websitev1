@@ -65,4 +65,96 @@ section h2 {
     margin: 0 10px 20px;
 }
 
-.pricing-plan
+.pricing-plan h3 {
+    color: #26a69a;
+}
+
+.pricing-plan p {
+    font-weight: bold;
+}
+
+footer {
+    background-color: rgba(38, 166, 154, 0.8);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    margin: 0;
+}
+
+.about-text {
+    float: left;
+    width: 60%;
+    padding-right: 20px;
+}
+
+.about-photo {
+    float: right;
+    width: 40%;
+}
+
+.about-text::after,
+.about-photo::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#company-name {
+    margin-top: 50px;
+}
+
+#company-name h1 {
+    font-size: 48px;
+    color: #fff;
+}
+
+#about {
+    margin-bottom: 300px; /* Increased margin to create more space */
+}
+
+/* Center the contact section */
+#contact {
+    text-align: center;
+}
+
+.contact-info {
+    margin-top: 20px; /* Add some space between the contact section and the email */
+    text-align: center; /* Center the email */
+}
+
+.contact-form {
+    display: inline-block;
+    text-align: left;
+}
+
+.contact-form label,
+.contact-form input,
+.contact-form textarea,
+.contact-form button {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.contact-form button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #45a049;
+}
