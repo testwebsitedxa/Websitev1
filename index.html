@@ -1,326 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <!-- Font Awesome CDN -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-
-    <!-- jQuery CDN -->
-    <script
-      src="https://code.jquery.com/jquery-3.7.1.js"
-      integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
-      crossorigin="anonymous"
-    ></script>
-
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
-      rel="stylesheet"
-    />
-
-    <link rel="stylesheet" href="css/style.css" />
-
-    <title>Analytics Website</title>
-  </head>
-  <body>
-    <nav class="mobile-nav" id="mobile-nav" role="navigation">
-      <a
-        href="javascript:void(0)"
-        class="mobile-nav__btn-close"
-        onclick="closeNav()"
-      >
-        <i class="fa fa-solid fa-xmark"></i>
-      </a>
-      <ul class="mobile-nav__list">
-        <li class="mobile-nav__item">
-          <a href="#" class="mobile-nav__link">Products</a>
-        </li>
-        <li class="mobile-nav__item">
-          <a href="#" class="mobile-nav__link">Pricing</a>
-        </li>
-        <li class="mobile-nav__item">
-          <a href="#" class="mobile-nav__link">FAQ</a>
-        </li>
-        <li class="mobile-nav__item">
-          <a href="#" class="mobile-nav__link">Blog</a>
-        </li>
-        <li class="mobile-nav__item">
-          <a href="#" class="mobile-nav__link">About</a>
-        </li>
-      </ul>
-      <div class="mobile-nav__buttons">
-        <a href="#" class="btn btn-bordered">Sign in</a>
-        <a href="#" class="btn btn-bordered">Sign Up</a>
-      </div>
-    </nav>
-
-    <section class="hero">
-      <div class="container">
-        <header class="header">
-          <nav class="nav" role="navigation">
-            <img class="nav__logo" src="images/logo-main.png" alt="Logo" />
-
-            <ul class="nav__list desktop-nav">
-              <li class="nav__item">
-                <a href="#" class="nav__link">Products</a>
-              </li>
-              <li class="nav__item">
-                <a href="#" class="nav__link">Pricing</a>
-              </li>
-              <li class="nav__item"><a href="#" class="nav__link">FAQ</a></li>
-              <li class="nav__item"><a href="#" class="nav__link">Blog</a></li>
-              <li class="nav__item"><a href="#" class="nav__link">About</a></li>
-            </ul>
-
-            <div class="nav__buttons">
-              <a href="#">Sign in</a>
-              <a href="#" class="btn btn-bordered">Sign Up</a>
-              <a
-                href="javascript:void(0);"
-                class="nav__burger"
-                onclick="myFunction()"
-              >
-                <i class="fa fa-bars"></i>
-              </a>
-            </div>
-          </nav>
-        </header>
-        <div class="hero-content">
-          <div class="hero-text-wrap">
-            <h1 class="hero-content__title">
-              Monitor your business on real-time dashboard
-            </h1>
-            <p class="hero-content__desc">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum
-              nisi aliquet volutpat pellentesque volutpat est. Sapien in etiam
-              vitae nibh nunc mattis imperdiet sed nullam.
-            </p>
-            <a href="#" class="btn btn-red">Try for free</a>
-          </div>
-          <div class="hero-img-wrap">
-            <img
-              src="images/hero-graph.png"
-              alt="Graph"
-              class="hero-content__image"
-            />
-          </div>
-        </div>
-      </div>
-    </section>
-    <main>
-      <section class="seperator-wrap">
-        <div class="seperator"></div>
-      </section>
-
-      <section class="features">
-        <div class="container">
-          <h2 class="features__title">Main Features</h2>
-          <p class="features__desc">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum
-            nisi aliquet volutpat pellentesque volutpat est. Sapien in etiam
-            vitae nibh nunc mattis imperdiet sed nullam. Vitae et, tortor
-            pulvinar risus pulvinar sit amet. Id vel in nam malesuada.
-          </p>
-
-          <div class="features-cards">
-            <div class="features-card">
-              <img alt="Clock Icon" class="features-card__img" src="images/clock-icon.png" />
-
-              <div class="features-card__text-wrap">
-                <span class="features-card__title">Monitoring 24/7</span>
-                <p class="features-card__desc">
-                  Lorem ipsum dolor sit amet, consectetur adipis cing elit.
-                  Elementum nisi aliquet volutpat.
-                </p>
-              </div>
-            </div>
-            <div class="features-card">
-              <img alt="Screen Icon" class="features-card__img" src="images/screen-icon.png" />
-              <div class="features-card__text-wrap">
-                <span class="features-card__title">Widget System</span>
-                <p class="features-card__desc">
-                  Lorem ipsum dolor sit amet, consectetur adipis cing elit.
-                  Elementum nisi aliquet volutpat.
-                </p>
-              </div>
-            </div>
-            <div class="features-card">
-              <img alt="Rocket Icon" class="features-card__img" src="images/rocket-icon.png" />
-              <div class="features-card__text-wrap">
-                <span class="features-card__title">Best Performance </span>
-                <p class="features-card__desc">
-                  Lorem ipsum dolor sit amet, consectetur adipis cing elit.
-                  Elementum nisi aliquet volutpat.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="features-grid">
-            <div class="features-grid__item">
-              <div class="features-grid__text-wrap">
-                <h2 class="features-grid__title">
-                  Automated Reports & Widget Alerts
-                </h2>
-
-                <p class="features-grid__desc">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Elementum nisi aliquet volutpat pellentesque volutpat est.
-                  Sapien in etiam vitae nibh nunc mattis imperdiet sed nullam.
-                  Vitae et, tortor pulvinar risus pulvinar sit amet.
-                </p>
-              </div>
-            </div>
-            <div class="features-grid__item">
-              <img
-                class="features-grid__image w-100"
-                src="images/reports.png"
-                alt="Reports Image"
-              />
-            </div>
-          </div>
-
-          <div class="features-grid">
-            <div class="features-grid__item">
-              <img
-                class="features-grid__image w-100"
-                src="images/graph.png"
-                alt="Graph Image"
-              />
-            </div>
-            <div class="features-grid__item">
-              <div class="features-grid__text-wrap">
-                <h2 class="features-grid__title">
-                  Fully customizable to address your needs
-                </h2>
-
-                <p class="features-grid__desc">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Elementum nisi aliquet volutpat pellentesque volutpat est.
-                  Sapien in etiam vitae nibh nunc mattis imperdiet sed nullam.
-                  Vitae et, tortor pulvinar risus pulvinar sit amet.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="features-grid">
-            <div class="features-grid__item">
-              <div class="features-grid__text-wrap">
-                <h2 class="features-grid__title">
-                  Pre-built Dashboard Templates
-                </h2>
-                <p class="features-grid__desc">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Elementum nisi aliquet volutpat pellentesque volutpat est.
-                  Sapien in etiam vitae nibh nunc mattis imperdiet sed nullam.
-                  Vitae et, tortor pulvinar risus pulvinar sit amet.
-                </p>
-              </div>
-            </div>
-            <div class="features-grid__item">
-              <img
-                class="features-grid__image w-100"
-                src="images/calendar.png"
-                alt="Calendar Image"
-              />
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="seperator-wrap">
-        <div class="blue-body seperator"></div>
-      </section>
-
-    </main>
-
-    <section class="pricing text-center">
-      <div class="container">
-        <h2 class="pricing__title text-white">Pricing Plans</h2>
-        <p class="pricing__desc">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum
-          nisi aliquet volutpat pellentesque volutpat est. Sapien in etiam vitae
-          nibh nunc mattis imperdiet sed nullam. Vitae et, tortor pulvinar risus
-          pulvinar sit amet. Id vel in nam malesuada.
-        </p>
-        <div class="pricing-cards">
-          <div class="pricing-card">
-            <h5 class="pricing-card__title">Starter</h5>
-            <p>up to 3 years</p>
-            <hr />
-            <span class="pricing-card__currency">$</span
-            ><span class="pricing-card__amount">29</span>
-            <p>per month</p>
-            <a class="btn btn-bordered" href="#">Order</a>
-          </div>
-
-          <div class="pricing-card" tabindex="0" id="focus">
-            <h5 class="pricing-card__title">Starter</h5>
-            <p>up to 3 years</p>
-            <hr />
-            <span class="pricing-card__currency">$</span
-            ><span class="pricing-card__amount">29</span>
-            <p>per month</p>
-            <a class="btn btn-red" href="#">Order</a>
-          </div>
-
-          <div class="pricing-card">
-            <h5 class="pricing-card__title">Starter</h5>
-            <p>up to 3 years</p>
-            <hr />
-            <span class="pricing-card__currency">$</span
-            ><span class="pricing-card__amount">29</span>
-            <p>per month</p>
-            <a class="btn btn-bordered" href="#">Order</a>
-          </div>
-        </div>
-
-        <footer>
-          <img alt="Logo" class="footer-logo" src="images/logo-footer.png" />
-
-          <ul class="footer-nav">
-            <li class="footer-nav-item">
-              <a class="footer-nav-link" href="#">Product</a>
-            </li>
-            <li class="footer-nav-item">
-              <a class="footer-nav-link" href="#">Pricing Plans</a>
-            </li>
-            <li class="footer-nav-item">
-              <a class="footer-nav-link" href="#">FAQ</a>
-            </li>
-            <li class="footer-nav-item">
-              <a class="footer-nav-link" href="#">Blog</a>
-            </li>
-          </ul>
-
-          <div class="footer-social-icons">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coaching Professional</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Coaching Professional</h1>
+        <nav>
             <ul>
-              <li>
-                <a href="#"><i class="fa fa-brands fa-facebook-f"></i></a>
-              </li>
-              <li>
-                <a href="#"><i class="fa fa-brands fa-twitter"></i></a>
-              </li>
-              <li>
-                <a href="#"><i class="fa fa-brands fa-instagram"></i></a>
-              </li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
-          </div>
-        </footer>
-      </div>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="coach_photo.jpg" alt="Coach Photo">
+        <p>Welcome to my coaching services. I'm dedicated to helping individuals achieve their personal and professional goals.</p>
     </section>
 
-    <script src="js/script.js"></script>
-  </body>
+    <section id="services">
+        <h2>Services</h2>
+        <div class="pricing-plan">
+            <h3>Individual Coaching</h3>
+            <p>$100 per session</p>
+            <ul>
+                <li>Personalized coaching sessions</li>
+                <li>Goal setting and action planning</li>
+                <li>Accountability and support</li>
+            </ul>
+        </div>
+        <div class="pricing-plan">
+            <h3>Group Coaching</h3>
+            <p>$200 per month</p>
+            <ul>
+                <li>Group coaching sessions</li>
+                <li>Community support</li>
+                <li>Access to resources and tools</li>
+            </ul>
+        </div>
+        <div class="pricing-plan">
+            <h3>Corporate Coaching</h3>
+            <p>Customized pricing</p>
+            <ul>
+                <li>Team development workshops</li>
+                <li>Leadership training</li>
+                <li>Executive coaching</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: info@coachingprofessional.com</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Coaching Professional</p>
+    </footer>
+</body>
 </html>
