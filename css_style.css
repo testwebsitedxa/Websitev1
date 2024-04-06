@@ -2,38 +2,51 @@ body {
   font-family: sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #fff; /* White background */
-  color: #24292e; /* Dark gray text */
+  background-color: #f5f5f5; /* Light Gray background */
 }
 
 header {
-  background-color: #38a1f3; /* Blue header */
+  background-color: transparent; /* Remove background color */
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between; /* Align items horizontally */
+}
+
+#menu-toggle {
+  background-color: #f09849; /* Orange button */
   color: #fff; /* White text */
-  padding: 20px;
-  text-align: center;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer;
+  font-weight: bold;
 }
 
-h1,
-h2 {
-  margin: 0;
+#menu-toggle:hover {
+  background-color: #e0853d; /* Darker orange on hover */
 }
 
-nav {
-  background-color: #f0f0f0; /* Light gray navigation */
-  padding: 10px;
+nav#navigation {
+  display: none; /* Initially hide navigation */
+  position: absolute; /* Absolute positioning */
+  top: 100%; /* Position below header */
+  left: 0; /* Align to left side */
+  width: 100%; /* Full width */
+  background-color: #fff; /* White background */
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  padding: 10px;
+  z-index: 1; /* Ensure navigation appears above other content */
 }
 
 nav ul {
   list-style: none;
   margin: 0;
   padding: 0;
-  text-align: center;
 }
 
 nav li {
-  display: inline-block;
-  margin: 0 10px;
+  display: block; /* Change to block for vertical display */
+  margin: 10px 0;
 }
 
 nav a {
@@ -43,7 +56,7 @@ nav a {
 }
 
 nav a:hover {
-  color: #38a1f3; /* Blue on hover */
+  color: #f09849; /* Orange on hover */
 }
 
 main {
@@ -55,34 +68,15 @@ section {
   padding: 20px;
   border-radius: 5px; /* Rounded corners */
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-  background-color: #f5f5f5; /* Light gray background for sections */
 }
 
-.cta { /* Call to action */
-  background-color: #38a1f3; /* Blue for call to action */
-  color: #fff; /* White text */
-  padding: 10px 20px;
-  border-radius: 5px;
-  text-align: center;
-  margin-bottom: 20px;
+.services {
+  background-color: #e0e0e0; /* Light gray for services */
 }
 
-.cta button {
-  background-color: #fff; /* White button */
-  color: #38a1f3; /* Blue text */
-  border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-  cursor: pointer;
-  font-weight: bold;
+.success {
+  background-color: #bfefff; /* Light blue for success stories */
 }
 
-.cta button:hover {
-  background-color: #f0f0f0; /* Light gray on hover */
-}
-
-footer {
-  background-color: #f0f0f0; /* Light gray footer */
-  padding: 10px;
-  text-align: center;
-}
+.cta {
+  background-color: #f09
