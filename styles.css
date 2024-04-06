@@ -39,7 +39,7 @@ header nav ul li a {
 section {
     padding: 40px;
     text-align: left;
-    margin: 20px auto;
+    margin: 80px auto; /* Quadrupled space between sections */
     border-radius: 10px;
     color: #fff;
 }
