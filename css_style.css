@@ -56,27 +56,4 @@ nav a {
 }
 
 nav a:hover {
-  color: #f09849; /* Orange on hover */
-}
-
-main {
-  padding: 20px;
-}
-
-section {
-  margin-bottom: 20px;
-  padding: 20px;
-  border-radius: 5px; /* Rounded corners */
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-}
-
-.services {
-  background-color: #e0e0e0; /* Light gray for services */
-}
-
-.success {
-  background-color: #bfefff; /* Light blue for success stories */
-}
-
-.cta {
-  background-color: #f09
+  color: #
