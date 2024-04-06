@@ -1,18 +1,68 @@
-/* New CSS for service columns */
-.service-column {
-    display: inline-block;
-    width: 30%; /* Adjust width as needed */
-    vertical-align: top;
-    margin-right: 5%; /* Adjust spacing between columns */
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
 }
 
-/* Adjustments to pricing-plan */
+header {
+    background-color: #26a69a;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 40px;
+    text-align: center;
+    margin: 50px auto;
+}
+
+section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.about-photo {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.service-column {
+    display: inline-block;
+    width: 30%;
+    margin-right: 5%;
+    vertical-align: top;
+}
+
 .pricing-plan {
     background-color: #333;
+    color: #fff;
     padding: 20px;
     border-radius: 5px;
     margin-bottom: 20px;
-    height: 100%; /* Ensure equal height for all columns */
+    text-align: left;
 }
 
 .pricing-plan h3 {
@@ -23,27 +73,9 @@
     font-weight: bold;
 }
 
-/* Clearfix to ensure proper alignment */
-.service-column:last-child {
-    margin-right: 0;
-}
-
-/* Clearfix */
-.full-width::after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-/* Adjusting the margin-top for each section */
-#about {
-    margin-top: 500px; /* Match the spacing between "Orbit Boost" and "About Me" */
-}
-
-#services {
-    margin-top: 800px; /* Match the desired spacing */
-}
-
-#contact {
-    margin-top: 1100px; /* Match the desired spacing */
+footer {
+    background-color: #26a69a;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
 }
