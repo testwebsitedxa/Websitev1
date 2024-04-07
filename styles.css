@@ -1,3 +1,4 @@
+/* CSS File */
 body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     color: #333;
@@ -88,7 +89,7 @@ footer p {
 }
 
 #company-name h1 {
-    font-size: 48px;
+    font-size: 60px; /* Increased font size */
     color: rgba(255, 255, 255, 0.9); /* Adjust the color to match the banner and footer */
 }
 
