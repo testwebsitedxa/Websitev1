@@ -35,7 +35,6 @@ section {
     padding: 40px;
     margin: 40px auto; /* Add margin for spacing between sections */
     border-radius: 10px;
-    background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent background */
 }
 
 section h2 {
