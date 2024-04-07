@@ -90,11 +90,20 @@ footer p {
 
 #company-name h2 {
     font-size: 24px;
-    color: #f1c40f; /* Yellow color for slogan */
+    color: #f1c40f;
 }
 
 .contact-info {
     margin-top: 20px;
     text-align: center;
+    color: #fff;
+}
+
+.about-text {
+    width: 50%; /* Adjusted width */
+    margin: 0 auto; /* Centered horizontally */
+}
+
+.about-text p {
     color: #fff; /* Change font color to white */
 }
