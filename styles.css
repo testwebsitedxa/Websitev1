@@ -83,17 +83,6 @@ footer p {
     padding: 20px; /* Add padding to create space around the text */
 }
 
-.about-photo {
-    width: 30%;
-    float: right;
-}
-
-.about-text::after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
 #company-name {
     margin-top: 50px;
 }
