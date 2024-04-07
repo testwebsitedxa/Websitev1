@@ -100,10 +100,10 @@ footer p {
 }
 
 .about-text {
-    width: 50%; /* Adjusted width */
-    margin: 0 auto; /* Centered horizontally */
+    width: 50%;
+    margin: 0 auto;
 }
 
 .about-text p {
-    color: #fff; /* Change font color to white */
+    color: #fff;
 }
