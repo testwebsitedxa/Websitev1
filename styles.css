@@ -1,5 +1,3 @@
-/* Previous CSS styles */
-
 body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     color: #333;
@@ -37,7 +35,6 @@ section {
     padding: 40px;
     margin: 40px auto; /* Add margin for spacing between sections */
     border-radius: 10px;
-    background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent background */
 }
 
 section h2 {
@@ -80,76 +77,22 @@ footer p {
     margin: 0;
 }
 
-.about-text {
-    width: 70%;
-    margin: auto; /* Center the text box */
-    padding: 20px; /* Add padding to create space around the text */
-}
-
-.about-photo {
-    float: right;
-    width: 30%;
-}
-
-.about-text::after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
 #company-name {
+    text-align: center; /* Center the company name */
     margin-top: 50px;
 }
 
 #company-name h1 {
     font-size: 48px;
-    color: #fff;
+    color: #fff; /* Change font color to white */
 }
 
-#about {
-    margin-bottom: 160px; /* Increase margin for larger spacing */
+#company-name h2 {
+    color: #FFA500; /* Change font color to orange */
 }
 
-/* Center the contact section */
-#contact {
-    text-align: center;
-}
-
-.contact-info {
-    margin-top: 20px; /* Add some space between the contact section and the email */
-    text-align: center; /* Center the email */
-}
-
-.contact-form {
-    display: inline-block;
-    text-align: left;
-}
-
-.contact-form label,
-.contact-form input,
-.contact-form textarea,
-.contact-form button {
-    display: block;
-    margin-bottom: 10px;
-}
-
-.contact-form input,
-.contact-form textarea {
-    width: 100%;
-    padding: 8px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-}
-
-.contact-form button {
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    padding: 10px 20px;
-    cursor: pointer;
-}
-
-.contact-form button:hover {
-    background-color: #45a049;
+#about .about-text {
+    width: 50%; /* Reduce width of about text */
+    margin: auto; /* Center the about text */
+    color: #fff; /* Change font color to white */
 }
