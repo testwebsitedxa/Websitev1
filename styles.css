@@ -1,3 +1,5 @@
+/* Previous CSS styles */
+
 body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     color: #333;
@@ -12,7 +14,7 @@ header {
     background-color: rgba(38, 166, 154, 0.8);
     color: #fff;
     padding: 20px;
-    text-align: right;
+    text-align: right; /* Align the header to the right */
 }
 
 header nav ul {
@@ -33,8 +35,9 @@ header nav ul li a {
 
 section {
     padding: 40px;
-    margin: 160px auto;
+    margin: 40px auto; /* Add margin for spacing between sections */
     border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent background */
 }
 
 section h2 {
@@ -77,33 +80,76 @@ footer p {
     margin: 0;
 }
 
+.about-text {
+    width: 70%;
+    margin: auto; /* Center the text box */
+    padding: 20px; /* Add padding to create space around the text */
+}
+
+.about-photo {
+    float: right;
+    width: 30%;
+}
+
+.about-text::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 #company-name {
     margin-top: 50px;
-    text-align: center;
 }
 
 #company-name h1 {
-    font-size: 64px;
+    font-size: 48px;
     color: #fff;
-    margin-bottom: 10px;
 }
 
-#company-name h2 {
-    font-size: 24px;
-    color: #f1c40f;
+#about {
+    margin-bottom: 160px; /* Increase margin for larger spacing */
+}
+
+/* Center the contact section */
+#contact {
+    text-align: center;
 }
 
 .contact-info {
-    margin-top: 20px;
-    text-align: center;
-    color: #fff;
+    margin-top: 20px; /* Add some space between the contact section and the email */
+    text-align: center; /* Center the email */
 }
 
-.about-text {
-    width: 50%;
-    margin: 0 auto;
+.contact-form {
+    display: inline-block;
+    text-align: left;
 }
 
-.about-text p {
-    color: #fff;
+.contact-form label,
+.contact-form input,
+.contact-form textarea,
+.contact-form button {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.contact-form button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #45a049;
 }
