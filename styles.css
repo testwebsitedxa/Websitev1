@@ -96,6 +96,7 @@ footer p {
 .contact-info {
     margin-top: 20px;
     text-align: center;
+    color: #fff; /* Change font color to white */
 }
 
 .contact-form {
