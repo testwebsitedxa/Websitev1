@@ -33,7 +33,7 @@ header nav ul li a {
 
 section {
     padding: 40px;
-    margin: 40px auto; /* Add margin for spacing between sections */
+    margin: 160px auto; /* Increase margin for larger spacing */
     border-radius: 10px;
 }
 
@@ -84,8 +84,8 @@ footer p {
 }
 
 .about-photo {
-    float: right;
     width: 30%;
+    float: right;
 }
 
 .about-text::after {
