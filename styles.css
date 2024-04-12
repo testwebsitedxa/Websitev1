@@ -70,7 +70,7 @@ section h2 {
     color: #fff; /* Pricing plan text color */
 }
 
-.pricing-plan p span {
+.separator {
     color: #26a69a; /* Change color of the separator */
 }
 
