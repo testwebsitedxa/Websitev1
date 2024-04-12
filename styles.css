@@ -11,7 +11,7 @@ body {
 header {
     background-color: rgba(38, 166, 154, 0.8); /* Header background color */
     padding: 20px;
-    text-align: right; /* Right-align navigation links */
+    text-align: center; /* Center-align navigation links */
 }
 
 header nav ul {
