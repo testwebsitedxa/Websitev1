@@ -84,7 +84,7 @@ footer p {
 
 #company-name h1 {
     font-size: 48px;
-    color: #fff; /* Change font color of company name to white */
+    color: #FFA500; /* Change font color of company name to orange */
 }
 
 #company-name h2 {
@@ -92,16 +92,18 @@ footer p {
 }
 
 #about h2 {
-    color: #fff; /* Change font color of "About Me" to white */
+    color: #fff; /* Revert font color of "About Me" to white */
 }
 
-.services h2,
+#services h2 {
+    color: #fff; /* Revert font color of "Services" to white */
+}
+
 #contact h2 {
-    color: #fff; /* Change font color of "Services" and "Contact" to white */
+    color: #fff; /* Change font color of "Contact" to white */
 }
 
 .about-text {
     width: 50%; /* Reduce width of about text */
     margin: auto; /* Center the about text */
-    color: #fff; /* Change font color of about text to white */
 }
