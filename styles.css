@@ -50,8 +50,20 @@ section h2 {
     background-color: #333;
     padding: 20px;
     border-radius: 5px;
-    max-width: 500px;
+    max-width: 400px; /* Set the maximum width */
     margin: 0 auto 20px; /* Center the boxes horizontally and add margin bottom */
+    /* Set the aspect ratio to 1:1 */
+    padding-bottom: 100%; /* This will make the height equal to the width */
+    position: relative; /* Make sure the content can be positioned relative to the container */
+}
+
+.pricing-plan > * {
+    position: absolute; /* Position the content absolutely within the container */
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto; /* Center the content horizontally and vertically */
 }
 
 .pricing-plan h3 {
