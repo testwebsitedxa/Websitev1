@@ -113,3 +113,9 @@ footer p {
 .pricing-plan ul {
     color: #fff; /* Change color of text under pricing plans to white */
 }
+
+.contact-info {
+    margin-top: 20px; /* Add some space between the contact section and the email */
+    text-align: center; /* Center the email */
+    color: #fff; /* Change font color of email to white */
+}
