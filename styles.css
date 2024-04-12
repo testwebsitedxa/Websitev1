@@ -65,8 +65,7 @@ section h2 {
 }
 
 .pricing-plan p {
-    font-weight: bold;
-    color: #fff; /* Pricing plan text color */
+     color: #fff; /* Pricing plan text color */
 }
 
 .separator {
