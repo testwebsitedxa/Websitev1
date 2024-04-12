@@ -1,6 +1,6 @@
 body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    color: #333;
+    color: #fff;
     line-height: 1.6;
     margin: 0;
     padding: 0;
@@ -10,9 +10,8 @@ body {
 
 header {
     background-color: rgba(38, 166, 154, 0.8);
-    color: #fff;
     padding: 20px;
-    text-align: right; /* Align the header to the right */
+    text-align: right;
 }
 
 header nav ul {
@@ -33,7 +32,7 @@ header nav ul li a {
 
 section {
     padding: 40px;
-    margin: 40px auto; /* Add margin for spacing between sections */
+    margin: 40px auto;
     border-radius: 10px;
 }
 
@@ -64,14 +63,13 @@ section h2 {
 
 .pricing-plan p {
     font-weight: bold;
-    color: #fff; /* Change color of pricing plan text to white */
+    color: #fff;
 }
 
 footer {
     background-color: rgba(38, 166, 154, 0.8);
-    color: #fff;
-    text-align: center;
     padding: 20px;
+    text-align: center;
 }
 
 footer p {
@@ -79,46 +77,29 @@ footer p {
 }
 
 #company-name {
-    text-align: center; /* Center the company name */
+    text-align: center;
     margin-top: 50px;
 }
 
 #company-name h1 {
     font-size: 48px;
-    color: #FFA500; /* Change font color of company name to orange */
+    color: #FFA500;
 }
 
 #company-name h2 {
-    color: #26a69a; /* Change font color of slogan to match "Individual Coaching" */
-}
-
-#about h2 {
-    color: #fff; /* Revert font color of "About Me" to white */
-}
-
-#services h2 {
-    color: #fff; /* Revert font color of "Services" to white */
-}
-
-#contact h2 {
-    color: #fff; /* Change font color of "Contact" to white */
-}
-
-.about-text {
-    width: 50%; /* Reduce width of about text */
-    margin: auto; /* Center the about text */
-    color: #fff; /* Change font color of "About Me" to white */
-}
-
-.pricing-plan ul {
-    color: #fff; /* Change color of text under pricing plans to white */
+    color: #26a69a;
 }
 
 .contact-info {
-    margin-top: 20px; /* Add some space between the contact section and the email */
-    text-align: center; /* Center the email */
+    margin-top: 20px;
+    text-align: center;
 }
 
 .contact-info p {
-    color: #fff; /* Change font color of email to white */
+    color: #fff;
+}
+
+.about-text {
+    width: 50%;
+    margin: auto;
 }
