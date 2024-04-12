@@ -1,17 +1,17 @@
 body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    color: #fff;
+    color: #fff; /* Default text color */
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-image: url('background_photo.jpg');
+    background-image: url('background_photo.jpg'); /* Background image */
     background-size: cover;
 }
 
 header {
-    background-color: rgba(38, 166, 154, 0.8);
+    background-color: rgba(38, 166, 154, 0.8); /* Header background color */
     padding: 20px;
-    text-align: right;
+    text-align: right; /* Right-align navigation links */
 }
 
 header nav ul {
@@ -26,20 +26,20 @@ header nav ul li {
 }
 
 header nav ul li a {
-    color: #fff;
+    color: #fff; /* Navigation link color */
     text-decoration: none;
 }
 
 section {
     padding: 40px;
-    margin: 40px auto;
+    margin: 40px auto; /* Add margin for spacing between sections */
     border-radius: 10px;
 }
 
 section h2 {
     font-size: 28px;
     margin-bottom: 20px;
-    text-align: center;
+    text-align: center; /* Center section headings */
 }
 
 .services-container {
@@ -54,22 +54,22 @@ section h2 {
     border-radius: 5px;
     flex: 1;
     max-width: 300px;
-    margin: 0 10px 20px;
+    margin: 0 20px 20px;
 }
 
 .pricing-plan h3 {
-    color: #26a69a;
+    color: #26a69a; /* Pricing plan title color */
 }
 
 .pricing-plan p {
     font-weight: bold;
-    color: #fff;
+    color: #fff; /* Pricing plan text color */
 }
 
 footer {
-    background-color: rgba(38, 166, 154, 0.8);
+    background-color: rgba(38, 166, 154, 0.8); /* Footer background color */
     padding: 20px;
-    text-align: center;
+    text-align: center; /* Center text in footer */
 }
 
 footer p {
@@ -77,29 +77,29 @@ footer p {
 }
 
 #company-name {
-    text-align: center;
+    text-align: center; /* Center company name */
     margin-top: 50px;
 }
 
 #company-name h1 {
-    font-size: 48px;
-    color: #FFA500;
+    font-size: 48px; /* Company name font size */
+    color: #FFA500; /* Company name text color */
 }
 
 #company-name h2 {
-    color: #26a69a;
+    color: #26a69a; /* Slogan text color */
 }
 
 .contact-info {
     margin-top: 20px;
-    text-align: center;
+    text-align: center; /* Center contact info */
 }
 
 .contact-info p {
-    color: #fff;
+    color: #fff; /* Contact info text color */
 }
 
 .about-text {
-    width: 50%;
-    margin: auto;
+    width: 50%; /* Reduce width of about text */
+    margin: auto; /* Center about text */
 }
