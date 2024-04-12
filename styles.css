@@ -106,4 +106,5 @@ footer p {
 .about-text {
     width: 50%; /* Reduce width of about text */
     margin: auto; /* Center the about text */
+    color: #fff; /* Change font color of "About Me" to white */
 }
