@@ -43,9 +43,7 @@ section h2 {
 }
 
 .services-container {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    display: block;
 }
 
 .pricing-plan {
@@ -54,7 +52,7 @@ section h2 {
     border-radius: 5px;
     flex: 1;
     max-width: 300px;
-    margin: 0 20px 20px;
+    margin: 0 auto 20px; /* Center the boxes horizontally and add margin bottom */
 }
 
 .pricing-plan h3 {
