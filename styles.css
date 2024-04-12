@@ -46,12 +46,19 @@ section h2 {
     display: block;
 }
 
+.pricing-plan {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 1000px; /* Set the maximum width */
+    margin: 0 auto 20px; /* Center the boxes horizontally and add margin bottom */
+}
+
 .pricing-plan p {
     font-weight: bold;
     color: #fff; /* Pricing plan text color */
     text-align: center; /* Center the text */
-    margin: 20px auto; /* Add margin top and bottom, and center horizontally */
-    max-width: 800px; /* Set maximum width for better readability */
+    margin-top: 20px; /* Add margin top */
 }
 
 .pricing-plan h3 {
