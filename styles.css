@@ -95,6 +95,11 @@ footer p {
     color: #fff; /* Change font color of "About Me" to white */
 }
 
+.services h2,
+#contact h2 {
+    color: #fff; /* Change font color of "Services" and "Contact" to white */
+}
+
 .about-text {
     width: 50%; /* Reduce width of about text */
     margin: auto; /* Center the about text */
