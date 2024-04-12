@@ -62,6 +62,7 @@ section h2 {
 
 .pricing-plan h3 {
     color: #26a69a; /* Pricing plan title color */
+    text-align: center; /* Center the headings */
 }
 
 .pricing-plan p {
@@ -70,6 +71,7 @@ section h2 {
 
 .separator {
     color: #26a69a; /* Change color of the separator */
+    font-weight: bold; /* Keep separators bold */
 }
 
 footer {
