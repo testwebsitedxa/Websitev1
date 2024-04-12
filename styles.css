@@ -61,6 +61,10 @@ section h2 {
     margin-top: 20px; /* Add margin top */
 }
 
+.pricing-plan p span {
+    margin: 0 5px; /* Adjust spacing between the asterisks */
+}
+
 .pricing-plan h3 {
     color: #26a69a; /* Pricing plan title color */
 }
