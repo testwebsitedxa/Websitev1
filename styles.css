@@ -1,4 +1,4 @@
-/* Updated CSS */
+/* Corrected CSS */
 
 body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -115,11 +115,7 @@ footer p {
 }
 
 /* Changing font color of "Orbit Boost" */
-p, h1, h2, h3, h4, h5, h6 {
-    color: #fff; /* Set default font color to white */
-}
-
-/* Targeting specific words "Orbit Boost" or "orbitboost" */
-p, h1, h2, h3, h4, h5, h6 {
+.orbit-boost {
     color: #FFA500; /* Change font color of "Orbit Boost" */
 }
+
